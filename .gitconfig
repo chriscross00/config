@@ -1,5 +1,9 @@
 [user]
 	email = christopher.chan2014@gmail.com
 	name = Christopher Chan
+
 [core]
 	editor = vim
+
+[alias]
+  tree = log --graph --decorate --pretty=oneline --abbrev-commit
