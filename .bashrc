@@ -10,3 +10,4 @@ alias ...='cd ..; cd ..'
 alias ll='ls -lh'
 alias la='ls -lha'
 
+alias h='history'
