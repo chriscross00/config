@@ -26,9 +26,9 @@ let python_highlight_all=1
 inoremap jj <ESC>
 
 "Setting dir for temp and alt files
-set backup
-set backupdir=$TEMP
-set dir=$TEMP
+set backupdir=.backup/,~/.backup/,/tmp//
+set directory=.swp/,~/.swp/,/tmp//
+set undodir=.undo/,~/.undo/,/tmp//
 
 " Windows
 set splitright
