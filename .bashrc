@@ -1,7 +1,5 @@
 cd ~
 
-alias python='winpty python.exe'
-
 # Navigation commands
 alias home='cd ~'
 alias ..='cd ..'
@@ -11,3 +9,6 @@ alias ll='ls -lh'
 alias la='ls -lha'
 
 alias h='history'
+
+# Modify prompt
+export PS1="\u@\W $ "
